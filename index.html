@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age calculator app</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1>احسب عمرك بالسنين و الشهور و الايام</h1>
+            <div class="box">
+                <div class="allInputs">
+                    <div class="input">
+                        <label for="day">اليوم</label>
+                        <input type="text" id="day" placeholder="DD">
+                    </div>
+                    <div class="input">
+                        <label for="month">الشهر</label>
+                        <input type="text" id="month" placeholder="MM">
+                    </div>
+                    <div class="input">
+                        <label for="year">السنة</label>
+                        <input type="text" id="year" placeholder="YYYY">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" id="submit" value="احسب">
+                    </div>
+                </div>
+                
+                <div class="result">
+                    <div>
+                        <div class="result-num">
+                            <span class="result-years">- -</span>
+                            <p> / سنوات</p>
+                        </div>
+                        <div class="result-num">
+                            <span class="result-month">- -</span>
+                            <p> / شهور</p>
+                        </div>
+                        <div class="result-num">
+                            <span class="result-day">- -</span>
+                            <p> / ايام</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
